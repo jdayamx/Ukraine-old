@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "PE "
+  ],
+  "key": {
+    "#": {
+      "item": "ukraine:ukraine_flour"
+    },
+    "P": {
+      "item": "minecraft:water_bucket"
+    },
+    "E": {
+      "item": "minecraft:egg"
+    }
+  },
+  "result": {
+    "item": "ukraine:ukraine_loaf",
+    "count": 1
+  }
+}

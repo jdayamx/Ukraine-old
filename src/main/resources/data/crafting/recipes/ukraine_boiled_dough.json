@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "PEK"
+  ],
+  "key": {
+    "#": {
+      "item": "ukraine:ukraine_rye_flour"
+    },
+    "P": {
+      "item": "minecraft:water_bucket"
+    },
+    "E": {
+      "item": "minecraft:egg"
+    },
+    "K": {
+      "item": "minecraft:baked_potato"
+    }
+  },
+  "result": {
+    "item": "ukraine:ukraine_boiled_dough",
+    "count": 1
+  }
+}

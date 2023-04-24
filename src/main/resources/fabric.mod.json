@@ -8,16 +8,14 @@
     "jday"
   ],
   "contact": {
+    "homepage": "https://github.com/jdayamx/Ukraine",
     "website": "https://github.com/jdayamx/Ukraine",
     "repo": "https://github.com/jdayamx/Ukraine"
   },
   "license": "CC0-1.0",
   "icon": "assets/ukraine/icon.png",
-  "environment": "server",
+  "environment": "*",
   "entrypoints": {
-    "client": [
-      "jday.ukraine.client.UkraineClient"
-    ],
     "main": [
       "jday.ukraine.Ukraine"
     ]
