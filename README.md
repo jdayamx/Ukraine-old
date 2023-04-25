@@ -25,3 +25,14 @@ Overall, Ukraine Craft is a great mod for those who want to explore Ukrainian cu
 | ![ukraine_boiled_dough.png](src%2Fmain%2Fresources%2Fassets%2Fukraine%2Ftextures%2Fitem%2Fukraine_boiled_dough.png) boiled_dough | Boiled dough   |
 | ![ukraine_shuba_salad.png](src%2Fmain%2Fresources%2Fassets%2Fukraine%2Ftextures%2Fitem%2Fukraine_shuba_salad.png) shuba_salad    | Shuba salad    |
 | ![ukraine_onion.png](src%2Fmain%2Fresources%2Fassets%2Fukraine%2Ftextures%2Fitem%2Fukraine_onion.png) onion                      | Onion          |
+
+## New Paintings
+| Painting | Description |
+|----------|-------------|
+|![bohdan.png](src%2Fmain%2Fresources%2Fassets%2Fukraine%2Ftextures%2Fpainting%2Fbohdan.png)          |Bohdan Khmelnytskyi is a famous Ukrainian hetman|
+|![bandera.png](src%2Fmain%2Fresources%2Fassets%2Fukraine%2Ftextures%2Fpainting%2Fbandera.png)|Stepan Bandera is a famous Ukrainian figure|
+|![lesya.png](src%2Fmain%2Fresources%2Fassets%2Fukraine%2Ftextures%2Fpainting%2Flesya.png)|Lesya Ukrainka is a famous writer|
+|![taras.png](src%2Fmain%2Fresources%2Fassets%2Fukraine%2Ftextures%2Fpainting%2Ftaras.png)|Taras Shevchenko is a famous writer|
+|![zelenskiy.png](src%2Fmain%2Fresources%2Fassets%2Fukraine%2Ftextures%2Fpainting%2Fzelenskiy.png)|Volodymyr Zelenskyi has been the president of Ukraine since 2019|
+|![kiev.png](src%2Fmain%2Fresources%2Fassets%2Fukraine%2Ftextures%2Fpainting%2Fkiev.png)|Kiy, Shchek, Khoryv and sister Lybid - the founders of Kyiv|
+|![piven.png](src%2Fmain%2Fresources%2Fassets%2Fukraine%2Ftextures%2Fpainting%2Fpiven.png)|Petrykiv painting - a rooster|

@@ -1,5 +1,6 @@
 package jday.ukraine;
 
+import jday.ukraine.painting.UkrainePainting;
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.client.itemgroup.FabricItemGroupBuilder;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
@@ -143,6 +144,8 @@ public class Ukraine implements ModInitializer {
         Registry.register(Registry.ITEM, new Identifier(MOD_ID,"ukraine_boiled_dough"), UKRAINE_BOILED_DOUGH);
         Registry.register(Registry.ITEM, new Identifier(MOD_ID,"ukraine_shuba_salad"), UKRAINE_SHUBA_SALAD);
         Registry.register(Registry.ITEM, new Identifier(MOD_ID,"ukraine_onion"), UKRAINE_ONION);
+
+        UkrainePainting.registerPaintings();
 
         LootTableLoadingCallback.EVENT.register(
                 (
