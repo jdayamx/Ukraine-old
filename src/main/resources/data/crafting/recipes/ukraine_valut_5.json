@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "##",
+    "P "
+  ],
+  "key": {
+    "#": {
+      "item": "ukraine:ukraine_valut_2"
+    },
+    "P": {
+      "item": "ukraine:ukraine_valut_1"
+    }
+  },
+  "result": {
+    "item": "ukraine:ukraine_valut_5",
+    "count": 1
+  }
+}
