@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "PCP",
+    "KKK"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:beetroot"
+    },
+    "P": {
+      "item": "minecraft:potato"
+    },
+    "C": {
+      "item": "minecraft:carrot"
+    },
+    "K": {
+      "item": "minecraft:cod"
+    }
+  },
+  "result": {
+    "item": "ukraine:ukraine_shuba_salad",
+    "count": 1
+  }
+}

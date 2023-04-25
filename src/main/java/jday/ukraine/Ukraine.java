@@ -9,10 +9,7 @@ import net.fabricmc.tinyremapper.extension.mixin.common.data.Constant;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.ItemEntity;
 import net.minecraft.entity.passive.PigEntity;
-import net.minecraft.item.FoodComponent;
-import net.minecraft.item.Item;
-import net.minecraft.item.ItemGroup;
-import net.minecraft.item.ItemStack;
+import net.minecraft.item.*;
 import net.minecraft.loot.ConstantLootTableRange;
 import net.minecraft.loot.UniformLootTableRange;
 import net.minecraft.loot.condition.RandomChanceLootCondition;
@@ -32,10 +29,13 @@ public class Ukraine implements ModInitializer {
                 stacks.add(new ItemStack(Ukraine.UKRAINE_RYE_SEEDS));
                 stacks.add(new ItemStack(Ukraine.UKRAINE_FLOUR));
                 stacks.add(new ItemStack(Ukraine.UKRAINE_RYE_FLOUR));
+                stacks.add(new ItemStack(Items.BEETROOT));
                 stacks.add(new ItemStack(Ukraine.UKRAINE_LOAF));
                 stacks.add(new ItemStack(Ukraine.UKRAINE_RYE_BREAD));
                 stacks.add(new ItemStack(Ukraine.UKRAINE_CREESH));
                 stacks.add(new ItemStack(Ukraine.UKRAINE_BOILED_DOUGH));
+                stacks.add(new ItemStack(Items.BEETROOT_SOUP));
+                stacks.add(new ItemStack(Ukraine.UKRAINE_SHUBA_SALAD));
             })
             .build();
     public static final Item UKRAINE_EMBLEM = new Item(
@@ -99,6 +99,16 @@ public class Ukraine implements ModInitializer {
                             .build()
                     )
     );
+    public static final Item UKRAINE_SHUBA_SALAD = new Item(
+            new FabricItemSettings()
+                    .group(Ukraine.UKRAINE_GENERAL)
+                    .food(new FoodComponent
+                            .Builder()
+                            .snack()
+                            .hunger(20)
+                            .build()
+                    )
+    );
     @Override
     public void onInitialize() {
         LogManager.getLogger().info("Started Ukraine mod!");
@@ -110,6 +120,7 @@ public class Ukraine implements ModInitializer {
         Registry.register(Registry.ITEM, new Identifier(MOD_ID,"ukraine_loaf"), UKRAINE_LOAF);
         Registry.register(Registry.ITEM, new Identifier(MOD_ID,"ukraine_creesh"), UKRAINE_CREESH);
         Registry.register(Registry.ITEM, new Identifier(MOD_ID,"ukraine_boiled_dough"), UKRAINE_BOILED_DOUGH);
+        Registry.register(Registry.ITEM, new Identifier(MOD_ID,"ukraine_shuba_salad"), UKRAINE_SHUBA_SALAD);
 
         LootTableLoadingCallback.EVENT.register(
                 (
