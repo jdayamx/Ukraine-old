@@ -26,10 +26,15 @@ public class Ukraine implements ModInitializer {
             .icon(() -> new ItemStack(Ukraine.UKRAINE_EMBLEM))
             .appendItems(stacks -> {
                 stacks.add(new ItemStack(Ukraine.UKRAINE_EMBLEM));
+                stacks.add(new ItemStack(Items.WHEAT_SEEDS));
+                stacks.add(new ItemStack(Items.PUMPKIN_SEEDS));
                 stacks.add(new ItemStack(Ukraine.UKRAINE_RYE_SEEDS));
                 stacks.add(new ItemStack(Ukraine.UKRAINE_FLOUR));
                 stacks.add(new ItemStack(Ukraine.UKRAINE_RYE_FLOUR));
+                stacks.add(new ItemStack(Items.WHEAT));
                 stacks.add(new ItemStack(Items.BEETROOT));
+                stacks.add(new ItemStack(Items.PUMPKIN));
+                stacks.add(new ItemStack(Items.SUNFLOWER));
                 stacks.add(new ItemStack(Ukraine.UKRAINE_LOAF));
                 stacks.add(new ItemStack(Ukraine.UKRAINE_RYE_BREAD));
                 stacks.add(new ItemStack(Ukraine.UKRAINE_CREESH));
