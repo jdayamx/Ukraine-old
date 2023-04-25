@@ -2,6 +2,7 @@
 | Logo                                                              | Description                                                      |
 |-------------------------------------------------------------------|------------------------------------------------------------------|
 | ![icon.png](src%2Fmain%2Fresources%2Fassets%2Fukraine%2Ficon.png) | Everything you need to know about Ukraine and Ukrainian culture. |
+
 Ukraine Craft is a mod for the game Minecraft developed on the Fabric platform that is dedicated to Ukrainian culture and history. This mod adds new items, blocks, mobs, generation, and other features related to Ukraine.
 
 Ukraine Craft adds many new blocks such as rye, onion, tomatoes, and other plants that grow in the fields of Ukraine. In addition, the mod adds new types of trees that grow in Ukraine, such as viburnum, ash, and willow.
