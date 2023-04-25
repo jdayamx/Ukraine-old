@@ -65,5 +65,13 @@ public class UkraineVillagers {
                             3, 2, 0.08f
                     ));
                 });
+        TradeOfferHelper.registerVillagerOffers(UkraineVillagers.UKRAINEK_MASTER, 4,
+                factories -> {
+                    factories.add((entity, random) -> new TradeOffer(
+                            new ItemStack(Ukraine.UKRAINE_EMBLEM, 1),
+                            new ItemStack(UkraineItemsValut.UKRAINE_VALUT_50, 1),
+                            3, 2, 0.08f
+                    ));
+                });
     }
 }
