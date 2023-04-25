@@ -6,8 +6,12 @@ import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.loot.v1.FabricLootPoolBuilder;
 import net.fabricmc.fabric.api.loot.v1.event.LootTableLoadingCallback;
 import net.fabricmc.tinyremapper.extension.mixin.common.data.Constant;
+import net.minecraft.enchantment.EfficiencyEnchantment;
+import net.minecraft.enchantment.Enchantments;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.ItemEntity;
+import net.minecraft.entity.effect.StatusEffectInstance;
+import net.minecraft.entity.effect.StatusEffects;
 import net.minecraft.entity.passive.PigEntity;
 import net.minecraft.item.*;
 import net.minecraft.loot.ConstantLootTableRange;
@@ -30,6 +34,7 @@ public class Ukraine implements ModInitializer {
                 stacks.add(new ItemStack(Items.PUMPKIN_SEEDS));
                 stacks.add(new ItemStack(Ukraine.UKRAINE_RYE_SEEDS));
                 stacks.add(new ItemStack(Ukraine.UKRAINE_FLOUR));
+                stacks.add(new ItemStack(Ukraine.UKRAINE_ONION));
                 stacks.add(new ItemStack(Ukraine.UKRAINE_RYE_FLOUR));
                 stacks.add(new ItemStack(Items.WHEAT));
                 stacks.add(new ItemStack(Items.BEETROOT));
@@ -114,6 +119,17 @@ public class Ukraine implements ModInitializer {
                             .build()
                     )
     );
+    public static final Item UKRAINE_ONION = new Item(
+            new FabricItemSettings()
+                    .group(Ukraine.UKRAINE_GENERAL)
+                    .food(new FoodComponent
+                            .Builder()
+                            .snack()
+                            .hunger(1)
+                            .statusEffect(new StatusEffectInstance(StatusEffects.BLINDNESS, 10 * 20), 1.0f)
+                            .build()
+                    )
+    );
     @Override
     public void onInitialize() {
         LogManager.getLogger().info("Started Ukraine mod!");
@@ -126,6 +142,7 @@ public class Ukraine implements ModInitializer {
         Registry.register(Registry.ITEM, new Identifier(MOD_ID,"ukraine_creesh"), UKRAINE_CREESH);
         Registry.register(Registry.ITEM, new Identifier(MOD_ID,"ukraine_boiled_dough"), UKRAINE_BOILED_DOUGH);
         Registry.register(Registry.ITEM, new Identifier(MOD_ID,"ukraine_shuba_salad"), UKRAINE_SHUBA_SALAD);
+        Registry.register(Registry.ITEM, new Identifier(MOD_ID,"ukraine_onion"), UKRAINE_ONION);
 
         LootTableLoadingCallback.EVENT.register(
                 (

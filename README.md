@@ -12,7 +12,7 @@ The mod also includes new mobs such as Cossack warriors and others that reflect 
 Ukraine Craft also adds new music tracks that reflect Ukrainian culture and traditions, as well as new interfaces that contain Ukrainian symbols and ornaments.
 
 Overall, Ukraine Craft is a great mod for those who want to explore Ukrainian culture and history in Minecraft. This mod adds new elements to the game that will help immerse you in Ukrainian culture and learn more about this wonderful country.
-## Items
+## New Items
 | Item                                                                                                                             | Description    |
 |----------------------------------------------------------------------------------------------------------------------------------|----------------|
 | ![ukraine_emblem.png](src%2Fmain%2Fresources%2Fassets%2Fukraine%2Ftextures%2Fitem%2Fukraine_emblem.png) emblem                   | Ukraine emblem |
@@ -24,3 +24,4 @@ Overall, Ukraine Craft is a great mod for those who want to explore Ukrainian cu
 | ![ukraine_creesh.png](src%2Fmain%2Fresources%2Fassets%2Fukraine%2Ftextures%2Fitem%2Fukraine_creesh.png) creesh                   | Сreesh         |
 | ![ukraine_boiled_dough.png](src%2Fmain%2Fresources%2Fassets%2Fukraine%2Ftextures%2Fitem%2Fukraine_boiled_dough.png) boiled_dough | Boiled dough   |
 | ![ukraine_shuba_salad.png](src%2Fmain%2Fresources%2Fassets%2Fukraine%2Ftextures%2Fitem%2Fukraine_shuba_salad.png) shuba_salad    | Shuba salad    |
+| ![ukraine_onion.png](src%2Fmain%2Fresources%2Fassets%2Fukraine%2Ftextures%2Fitem%2Fukraine_onion.png) onion                      | Onion          |
