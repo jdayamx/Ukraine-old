@@ -12,4 +12,4 @@ Everything you need to know about Ukraine and Ukrainian culture.
 | ![ukraine_loaf.png](src%2Fmain%2Fresources%2Fassets%2Fukraine%2Ftextures%2Fitem%2Fukraine_loaf.png) loaf                         | Loaf           |
 | ![ukraine_creesh.png](src%2Fmain%2Fresources%2Fassets%2Fukraine%2Ftextures%2Fitem%2Fukraine_creesh.png) creesh                   | Сreesh         |
 | ![ukraine_boiled_dough.png](src%2Fmain%2Fresources%2Fassets%2Fukraine%2Ftextures%2Fitem%2Fukraine_boiled_dough.png) boiled_dough | Boiled dough   |
-| [ukraine_shuba_salad.json](src%2Fmain%2Fresources%2Fdata%2Fcrafting%2Frecipes%2Fukraine_shuba_salad.json) shuba_salad                       | Shuba salad    |
+| ![ukraine_shuba_salad.png](src%2Fmain%2Fresources%2Fassets%2Fukraine%2Ftextures%2Fitem%2Fukraine_shuba_salad.png) shuba_salad    | Shuba salad    |
