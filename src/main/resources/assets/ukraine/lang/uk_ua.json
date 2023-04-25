@@ -9,5 +9,15 @@
   "item.ukraine.ukraine_rye_flour": "Житнє борошно",
   "item.ukraine.ukraine_boiled_dough": "Вареники",
   "item.ukraine.ukraine_shuba_salad": "Салат Шуба",
-  "item.ukraine.ukraine_onion": "Цибуля"
+  "item.ukraine.ukraine_onion": "Цибуля",
+  "item.ukraine.ukraine_valut_1": "1 Гривня",
+  "item.ukraine.ukraine_valut_2": "2 Гривні",
+  "item.ukraine.ukraine_valut_5": "5 Гривень",
+  "item.ukraine.ukraine_valut_10": "10 Гривень",
+  "item.ukraine.ukraine_valut_20": "20 Гривень",
+  "item.ukraine.ukraine_valut_50": "50 Гривень",
+  "item.ukraine.ukraine_valut_100": "100 Гривень",
+  "item.ukraine.ukraine_valut_200": "200 Гривень",
+  "entity.minecraft.villager.ukrainekmaster": "Файний Козак"
+
 }

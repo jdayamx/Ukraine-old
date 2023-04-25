@@ -1,19 +1,15 @@
 package jday.ukraine;
 
+import jday.ukraine.item.UkraineItemsValut;
 import jday.ukraine.painting.UkrainePainting;
+import jday.ukraine.villager.UkraineVillagers;
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.client.itemgroup.FabricItemGroupBuilder;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.loot.v1.FabricLootPoolBuilder;
 import net.fabricmc.fabric.api.loot.v1.event.LootTableLoadingCallback;
-import net.fabricmc.tinyremapper.extension.mixin.common.data.Constant;
-import net.minecraft.enchantment.EfficiencyEnchantment;
-import net.minecraft.enchantment.Enchantments;
-import net.minecraft.entity.Entity;
-import net.minecraft.entity.ItemEntity;
 import net.minecraft.entity.effect.StatusEffectInstance;
 import net.minecraft.entity.effect.StatusEffects;
-import net.minecraft.entity.passive.PigEntity;
 import net.minecraft.item.*;
 import net.minecraft.loot.ConstantLootTableRange;
 import net.minecraft.loot.UniformLootTableRange;
@@ -47,6 +43,15 @@ public class Ukraine implements ModInitializer {
                 stacks.add(new ItemStack(Ukraine.UKRAINE_BOILED_DOUGH));
                 stacks.add(new ItemStack(Items.BEETROOT_SOUP));
                 stacks.add(new ItemStack(Ukraine.UKRAINE_SHUBA_SALAD));
+
+                stacks.add(new ItemStack(UkraineItemsValut.UKRAINE_VALUT_1));
+                stacks.add(new ItemStack(UkraineItemsValut.UKRAINE_VALUT_2));
+                stacks.add(new ItemStack(UkraineItemsValut.UKRAINE_VALUT_5));
+                stacks.add(new ItemStack(UkraineItemsValut.UKRAINE_VALUT_10));
+                stacks.add(new ItemStack(UkraineItemsValut.UKRAINE_VALUT_20));
+                stacks.add(new ItemStack(UkraineItemsValut.UKRAINE_VALUT_50));
+                stacks.add(new ItemStack(UkraineItemsValut.UKRAINE_VALUT_100));
+                stacks.add(new ItemStack(UkraineItemsValut.UKRAINE_VALUT_200));
             })
             .build();
     public static final Item UKRAINE_EMBLEM = new Item(
@@ -146,6 +151,12 @@ public class Ukraine implements ModInitializer {
         Registry.register(Registry.ITEM, new Identifier(MOD_ID,"ukraine_onion"), UKRAINE_ONION);
 
         UkrainePainting.registerPaintings();
+
+        UkraineVillagers.registerVillagers();
+
+        UkraineItemsValut.registerItemsValute();
+
+        UkraineVillagers.registerVillagersPOIs();
 
         LootTableLoadingCallback.EVENT.register(
                 (

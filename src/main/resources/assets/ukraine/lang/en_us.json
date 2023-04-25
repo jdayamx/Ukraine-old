@@ -9,5 +9,14 @@
   "item.ukraine.ukraine_rye_flour": "Rye flour",
   "item.ukraine.ukraine_boiled_dough": "Boiled dough",
   "item.ukraine.ukraine_shuba_salad": "Shuba salad",
-  "item.ukraine.ukraine_onion": "Onion"
+  "item.ukraine.ukraine_onion": "Onion",
+  "item.ukraine.ukraine_valut_1": "1 Uah",
+  "item.ukraine.ukraine_valut_2": "2 Uah",
+  "item.ukraine.ukraine_valut_5": "5 Uah",
+  "item.ukraine.ukraine_valut_10": "10 Uah",
+  "item.ukraine.ukraine_valut_20": "20 Uah",
+  "item.ukraine.ukraine_valut_50": "50 Uah",
+  "item.ukraine.ukraine_valut_100": "100 Uah",
+  "item.ukraine.ukraine_valut_200": "200 Uah",
+  "entity.minecraft.villager.ukrainekmaster": "Kozak"
 }
