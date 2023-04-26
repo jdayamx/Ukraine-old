@@ -44,7 +44,7 @@ public class Ukraine implements ModInitializer {
                 stacks.add(new ItemStack(Ukraine.UKRAINE_BOILED_DOUGH));
                 stacks.add(new ItemStack(Items.BEETROOT_SOUP));
                 stacks.add(new ItemStack(Ukraine.UKRAINE_SHUBA_SALAD));
-
+                stacks.add(new ItemStack(Ukraine.UKRAINE_KVASS));
                 stacks.add(new ItemStack(UkraineItemsValut.UKRAINE_VALUT_1));
                 stacks.add(new ItemStack(UkraineItemsValut.UKRAINE_VALUT_2));
                 stacks.add(new ItemStack(UkraineItemsValut.UKRAINE_VALUT_5));
@@ -119,17 +119,17 @@ public class Ukraine implements ModInitializer {
     public static final Item UKRAINE_SHUBA_SALAD = new Item(
             new FabricItemSettings()
                     .group(Ukraine.UKRAINE_GENERAL)
-                    .food(new FoodComponent
-                            .Builder()
-                            .snack()
-                            .hunger(20)
-                            .build()
-                    )
+                    .food(UkraineFoodComponent.SHUBA_SALAD)
     );
     public static final Item UKRAINE_ONION = new Item(
             new FabricItemSettings()
                     .group(Ukraine.UKRAINE_GENERAL)
                     .food(UkraineFoodComponent.ONION)
+    );
+    public static final Item UKRAINE_KVASS = new Item(
+            new FabricItemSettings()
+                    .group(Ukraine.UKRAINE_GENERAL)
+                    .food(UkraineFoodComponent.KVASS)
     );
     @Override
     public void onInitialize() {
@@ -144,6 +144,7 @@ public class Ukraine implements ModInitializer {
         Registry.register(Registry.ITEM, new Identifier(MOD_ID,"ukraine_boiled_dough"), UKRAINE_BOILED_DOUGH);
         Registry.register(Registry.ITEM, new Identifier(MOD_ID,"ukraine_shuba_salad"), UKRAINE_SHUBA_SALAD);
         Registry.register(Registry.ITEM, new Identifier(MOD_ID,"ukraine_onion"), UKRAINE_ONION);
+        Registry.register(Registry.ITEM, new Identifier(MOD_ID,"ukraine_kvass"), UKRAINE_KVASS);
 
         UkrainePainting.registerPaintings();
 

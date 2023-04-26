@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "##",
+    "PE"
+  ],
+  "key": {
+    "#": {
+      "item": "ukraine:ukraine_rye_bread"
+    },
+    "P": {
+      "item": "minecraft:water_bucket"
+    },
+    "E": {
+      "item": "minecraft:sugar"
+    }
+  },
+  "result": {
+    "item": "ukraine:ukraine_kvass",
+    "count": 1
+  }
+}
