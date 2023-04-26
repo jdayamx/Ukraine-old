@@ -1,5 +1,6 @@
 package jday.ukraine;
 
+import jday.ukraine.item.UkraineFoodComponent;
 import jday.ukraine.item.UkraineItemsValut;
 import jday.ukraine.painting.UkrainePainting;
 import jday.ukraine.villager.UkraineVillagers;
@@ -128,13 +129,7 @@ public class Ukraine implements ModInitializer {
     public static final Item UKRAINE_ONION = new Item(
             new FabricItemSettings()
                     .group(Ukraine.UKRAINE_GENERAL)
-                    .food(new FoodComponent
-                            .Builder()
-                            .snack()
-                            .hunger(1)
-                            .statusEffect(new StatusEffectInstance(StatusEffects.BLINDNESS, 10 * 20), 1.0f)
-                            .build()
-                    )
+                    .food(UkraineFoodComponent.ONION)
     );
     @Override
     public void onInitialize() {
